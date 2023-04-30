@@ -1,0 +1,26 @@
+@media only screen and (min-width: 37.5em) {
+    header {
+        max-width: 500px;
+        font-size: 1rem;
+    }
+    main {
+        max-width: 500px;
+        grid-template-columns: 1fr 1fr;
+        font-size: .9rem;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    section:nth-child(3) img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        max-width: 500px;
+        font-size: .8rem;
+    }
+}
