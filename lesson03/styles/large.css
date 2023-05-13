@@ -1,0 +1,18 @@
+@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 70.5em) {
+  
+    
+      .main-nav {
+        flex-direction: row;
+      }
+    
+      .persona {
+        width: 45%;
+      }
+  
+  
+    }
+    
+  
+  }
+  

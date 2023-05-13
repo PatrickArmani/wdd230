@@ -1,0 +1,18 @@
+@media screen and (min-width: 37.5em) {
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      
+    } 
+    .color-container {
+      flex-direction: row;
+    }
+    .item1, .item2, .item3, .item4 {
+      width: 25%;
+    }
+    .persona {
+      width: 400px;
+    }
+  
+  }
+  
