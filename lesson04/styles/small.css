@@ -293,7 +293,10 @@ aside {
 }
 
 #spotlight3 {
-  display: none;
+  /*display: none;*/
+  background-color: #eeeeee;
+  border: 2px solid var(--accent1-color);
+  padding: 10px;
   margin: 5px 0px;
 }
 
