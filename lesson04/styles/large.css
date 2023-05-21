@@ -38,35 +38,35 @@
       grid-row: 1/3;
       width: 100%;
       height: 100%;
-      padding: 10px;
+      /*padding: 10px;*/
     }
   
     .news {
       grid-column: 2/4;
       grid-row: 3/4;
-      width: 100%;
-      height: 100%;
+      /*width: 100%;
+      height: 100%;*/
     }
   
     .event {
       grid-column: 1/2;
       grid-row: 1/2;
-      width: 100%;
-      height: 100%;
+      /*width: 100%;
+      height: 100%;*/
     }
   
     .weather {
       grid-column: 1/2;
       grid-row: 2/3;
-      width: 100%;
-      height: 100%;
+      /*width: 100%;
+      height: 100%;*/
     }
   
     .join {
       grid-column: 1/2;
       grid-row: 3/4;
-      width: 100%;
-      height: 100%;
+      /*width: 100%;
+      height: 100%;*/
     }
   
     aside {
@@ -76,7 +76,11 @@
       flex-direction: column;
     }
   
-    .spotlight3 {
+  /*  .spotlight3 {
+      display: block;
+    }*/
+
+    #spotlight3 {
       display: block;
     }
   }
