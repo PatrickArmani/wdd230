@@ -6,9 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Armani">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Calgary Chamber of Commerce">
+    <meta property="og:url" content="https://patrickarmani.github.io/wdd230/lesson06/">
     <title>Calgary Chamber of Commerce</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="favicon.ico">
     <link type="text/css" rel="stylesheet" href="styles/small.css">
     <link type="text/css" rel="stylesheet" href="styles/medium.css">
     <link type="text/css" rel="stylesheet" href="styles/large.css">
@@ -52,11 +57,17 @@
     <main> 
         <div class="hero">
             <!--<img class="banner" src="images/hero_calgary.jpg" alt="Calgary City"  height="300" width="600">-->
-            <figure>
+            <!--<figure>
                 <img class="banner" src="images/wdd230_org.jpg" alt="wdd230_org.jpg"
-                    srcset="images/wdd230_org_small_400.jpg 1x, images/wdd230_org_medium_800.jpg 2x,
-                            images/wdd230_org_large_1100.jpg 3x,">
+                    srcset="images/wdd230_org_small_400.jpg, images/wdd230_org_medium_800.jpg 1.5x,
+                            images/wdd230_org_large_1100.jpg 2x">
+            </figure>-->
+            <figure class="hero">
+                <img src="images/wdd230_org.jpg" alt="wdd230_org.jpg" sizes = "45vw"
+                        srcset="images/wdd230_org_small_400.jpg 400w, images/wdd230_org_medium_800.jpg 800w,
+                        images/wdd230_org_large_1100.jpg 1100w">
             </figure>
+
             <h1 class="hero-banner">Welcome to Calgary</h1>
             <button class="call-to-action">Join the Chamber</button>
         </div>
@@ -66,7 +77,7 @@
             <h5>Open-air historical and learning museum</h5>
             <p>Heritage Park in Calgary, Alberta, is an open-air historical and learning museum that gives visitors the chance to experience what life was like on the Canadian Prairies from 1860 to 1950. Costumed interpreters and many hands-on, interactive exhibits help you go deeper into your fun-filled encounter with the living past..<br><a href="#">more info...</a></p>
         </div>
-        <div class="weather"><h3>Calgary, CA Weather</h3>
+        <!--<div class="weather"><h3>Calgary, CA Weather</h3>
             <img src="images/weather.png" class="weather-img" alt="Weather Icon" height="60" width="60">
             <br>
             <h3>83°F</h3>
@@ -74,8 +85,22 @@
             <br>
             <hr>
             <p>Wind Speed: </p>
+            
             <p>Wind Chill: N/A</p>
+        </div>-->
+        <div class="weather"><h4>Calgary, CA </h4>
+                             <h3>WEATHER</h3>
+            <img src="images/weather.png" class="weather-img" alt="Weather Icon" height="60" width="60">
+            
+            
+            <h4 id="condition-text">Partly Cloudy</h4>
+            <hr>
+            
+            <h4 id="temperature">33 °C</h4>
+            <h4 id="wind-speed">Wind Speed: 2.5 km/h</h4>
+            <h4 id="wind-chill">Wind Chill: N/A</h4>
         </div>
+
         <div class="news">
             <h3>📰 News Release</h3>
             <p><b>Calgary, Alberta-</b>  The Calgary Chamber proudly announced Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  </p></div>
@@ -110,7 +135,7 @@
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-footer" src="images/calgarylogo.png" alt="Calgary Chamber of Commerce Logo" height="100" width="100">
+            <img class="logo-footer" src="images/calgarylogo.webp" alt="Calgary Chamber of Commerce Logo" height="100" width="100">
                 </div>
                 <div class="name-footer">
                     <h2>CALGARY<br>Chamber of Commerce</h2>
@@ -127,5 +152,6 @@
                 </div>            
             </footer>
             <script src="scripts/script.js"></script>
+            <script src="scripts/windchill.js" rel="script"></script>
         </body>
         </html>
