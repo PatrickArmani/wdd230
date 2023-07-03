@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Armani">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Calgary Chamber of Commerce - Join Us">
+    <meta name="description" content="Join us!  Become a member today. Calgary Chamber of Commerce">
+    <title>Calgary Chamber of Commerce | Join Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="favicon.ico">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="headname">
+           <img class="logo" src="images/calgarylogo.webp" alt="Calgary Alberta Chamber of Commerce">
+           <div class="calgarycc-name">CALGARY<br>Chamber of Commerce</div>
+           
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="Facebook" class="sociallogo" height="28.8" width="55"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin_logo.png" alt="LinkedIn" class="sociallogo" height="26.2" width="50"></a>
+            </div>
+        
+            <div>
+                <button id="hamburgerBtn"><span class="hamburger">&#9776;</span><span class="hamburger">X</span></button>
+            </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="date-hdr">
+            <p id="datetime"><span id="todayHeading"></span></p>
+        </div>
+        
+              
+    </header>
+    <!--<main class="join-van-cc">-->
+    <main class="join-calgary-cc">
+    <h1 class="title">Join Our Chamber of Commerce</h1>
+    
+    <div class="join-lft">
+    <div class="container">
+        <span class="headline">NON-PROFIT</span>
+            <ul>
+                <li>Grow your network by connecting with similar organizations.</li>
+                <li>Show up through our Camera events and promotional channels.</li>
+                <li>Increase your chances of building amazing partnerships.</li>
+                <li>Collaborate on community initiatives and make a positive impact along with other nonprofits.</li>
+                <li>Showcase your non-profit's mission and events through featured listings in our chamber publications and newsletters.</li>
+                <li>Gain access to exclusive workshops and training sessions tailored specifically for non-profit organizations.</li>
+            </ul>
+    </div>
+    <div class="container">
+        <span class="headline">ELITE ($CAD 80 / month)</span>
+        <ul>
+            <li>Add to the previous benefits:</li>
+            <li>Visibility in our business directory.</li>
+            <li>VIP invitations to business training events.</li>
+            <li>Better visibility for your brand through our social media platforms.</li>
+            <li>Monthly participation in events for the growth of connections with entrepreneurs and professionals in their field.</li>
+            <li>Advertising campaign discounts in our marketing materials.</li>
+        </ul>
+    </div>
+    <div class="container">
+        <span class="headline">PREMIER ($CAD 200 / month)</span>
+        <ul>
+            <li>Enjoy all the advantages of the Bronze membership, plus:</li>
+            <li>Spotlight your business with enhanced visibility in our directory and on our website.</li>
+            <li>Participate in our prestigious Chamber committees and influence local policies.</li> 
+            <li>Showcase your expertise as a guest speaker at Chamber events, positioning yourself as a thought leader in your industry.</li>
+            <li>Receive priority access to sponsorship opportunities for Chamber programs and events, elevating your brand's recognition.</li>
+            <li>Access member-exclusive business development workshops and seminars to refine your skills and stay ahead of industry trends.</li>  
+        </ul>      
+      </div>
+    <div class="container">
+        <span class="headline">PRESIDENT ($CAD 400 / month)</span>
+        <ul>
+            <li>Experience the ultimate membership package, incorporating all other membership level benefits, plus:</li>
+            <li>Premier recognition as a Chamber supporter at our signature events.</li>
+            <li>VIP access to exclusive networking receptions and business showcases.</li>
+            <li>Enjoy prominent logo placement on our Chamber's website and event materials, maximizing your brand's visibility.</li>
+            <li>Gain exclusive access to high-level networking events, connecting with influential community leaders and decision-makers.</li>
+            <li>Receive a dedicated business profile feature in our Chamber's newsletter, highlighting your achievements and success stories.</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="form-container">
+        <p>Welcome to our membership page. You are about to become a member of our Chamber and you will be able to participate in a business community focused on development and success.</p>
+        <p>We will be with you in this process.</p>
+        <img class="joincity" src="images/city.jpg" alt="Calgary City">
+        <form action="thankyou.html" method="get">
+            <h2>Chamber of Commerce Application</h2>
+            <p>Please fill out this form to create an account and select your membership level.</p>
+            <hr>
+    
+            <label class="top">First name* <input type="text" name="fname" required></label>
+            <label class="top">Last name* <input type="text" name="lname" required></label>
+            <label class="top">Business Name*<input type="text" name="business" required></label>
+            <label class="top">Position <input type="text" name="position" placeholder="Position in Organization" pattern="[a-zA-Z\s\-]{7,}" title="Please enter at least seven alpha characters, hyphens, or spaces."></label>
+            <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email" required></label>
+            <label class="top">Cell Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <br>
+            <fieldset>
+                <legend>Membership Levels:</legend>
+            <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Non-Profit">  Non-Profit</label>
+            <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Bronze">  Elite Membership ($CAD 80)</label>
+            <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Silver">  Premier Membership ($CAD 200)</label>
+            <label class="sbs"><input type="radio" class="membership" name="membershiplevel" value="Gold">  President ($CAD 400)</label>
+            </fieldset>
+            <label class="top">Business Description<br><textarea name="description" rows="4"></textarea></label>
+            <input type="hidden" id="formDateTime" name="formDateTime" value="">
+
+            <input type="submit" class="submitBtn" value="Join the Chamber!">
+          </form> 
+          
+        <p>By joining you will contribute to stimulating the development of the regional economy. Together we will help promote <b>unity</b> and <b>prosperity</b> for everyone in the region.</p>
+
+        <p>If you need more detailed information about membership, we have a team ready to help. Simply contact us at: 222.123.12345 or email: mychamber@calgary.ca.com</p>
+            
+        <p>Join the Calgary Chamber now and join us in transforming our trading community.</p>
+        <img class="joincity" src="images/shopping2.jpg" alt="Calgary City Shopping">
+
+    </div>
+
+
+
+
+       
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="images/calgarylogo.webp" alt="Calgary Chamber of Commerce Logo" height="100" width="100">
+                </div>
+                <div class="name-footer">
+                    <p class="medium">CALGARY<br>Chamber of Commerce</p>
+                    <p>20-64 31  Ave SW<br>Calgary, AB T2S 2Y8, Canada</p>
+                </div>
+                <div class="contact">
+                    <p>armaninegocios@gmail.com</p>
+                    <p>+234-123-456</p>
+                    <p><a href="https://www.google.com.br/maps/place/Calgary,+AB,+Canad%C3%A1/@51.0271596,-114.4174721,10z/data=!3m1!4b1!4m6!3m5!1s0x537170039f843fd5:0x266d3bb1b652b63a!8m2!3d51.0447331!4d-114.0718831!16zL20vMDFyMzI" target="_blank">📍 Location</a></p>
+                </div>
+                <div class="foot-hr"><hr></div>
+                <div class="otherinfo">  
+                        &copy;<span id="copyright"></span>  Calgary Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Patrick Armani&nbsp;&nbsp;|&nbsp;&nbsp;WDD 230 Project&nbsp;&nbsp;|&nbsp;&nbsp;Last modification: <span id="dateModified"></span>
+                </div>            
+            </footer>
+            <script src="scripts/datetime.js"></script> 
+            <script src="scripts/script.js"></script>      
+        </body>
+        </html>
