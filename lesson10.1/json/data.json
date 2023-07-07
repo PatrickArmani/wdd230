@@ -1,0 +1,94 @@
+{
+    "businesses": [
+        {
+            "name": "Mr. Repair",
+            "address": "123 Lemon Street",
+            "phone": "123-321-4567",
+            "website": "https://www.mrrepair.com",
+            "imageurl": "images/car_repair.png",
+            "membership": "diamond",
+            "slogan": "Let us help your car!"
+        },
+        {
+            "name": "Nina Pizzeria",
+            "address": "456 Food Street",
+            "phone": "456-999-0003",
+            "website": "https://www.ninapizzeria.com",
+            "imageurl": "images/pizza.png",
+            "membership": "executive",
+            "slogan": "Hot and fast pizza!"
+        },
+        {
+            "name": "Info Shoes",
+            "address": "789 Mouse Street",
+            "phone": "111-777-888",
+            "website": "https://www.infoshoes.com",
+            "imageurl": "images/shopping_shoes.png",
+            "membership": "elite",
+            "slogan": "Find your shoes"
+        },
+        {
+            "name": "LMN Enterprises",
+            "address": "321 Pine Lane",
+            "phone": "360-555-3456",
+            "website": "https://www.lmnenterprises.com",
+            "imageurl": "images/logo4.jpg",
+            "membership": "non-profit",
+            "slogan": "Your partner for success"
+        },
+        {
+            "name": "DEF Corporation",
+            "address": "654 Cedar Road",
+            "phone": "360-555-7890",
+            "website": "https://www.defcorp.com",
+            "imageurl": "images/logo5.jpg",
+            "membership": "gold",
+            "slogan": "Empowering businesses worldwide"
+        },
+        {
+            "name": "GHI Solutions",
+            "address": "987 Maple Street",
+            "phone": "360-555-2345",
+            "website": "https://www.ghisolutions.com",
+            "imageurl": "images/logo6.jpg",
+            "membership": "silver",
+            "slogan": "Driving innovation for a connected world"
+        },
+        {
+            "name": "JKL Industries",
+            "address": "456 Oak Lane",
+            "phone": "360-555-6789",
+            "website": "https://www.jklindustries.com",
+            "imageurl": "images/logo7.jpg",
+            "membership": "bronze",
+            "slogan": "Quality products for every need"
+        },
+        {
+            "name": "MNO Enterprises",
+            "address": "789 Elm Street",
+            "phone": "360-555-0123",
+            "website": "https://www.mnoenterprises.com",
+            "imageurl": "images/logo8.jpg",
+            "membership": "non-profit",
+            "slogan": "Innovate. Collaborate. Succeed."
+        },
+        {
+            "name": "RST Corporation",
+            "address": "123 Cedar Lane",
+            "phone": "360-555-4567",
+            "website": "https://www.rstcorp.com",
+            "imageurl": "images/logo9.jpg",
+            "membership": "gold",
+            "slogan": "Transforming industries with technology"
+        },
+        {
+            "name": "UVW Company",
+            "address": "987 Pine Avenue",
+            "phone": "360-555-8901",
+            "website": "https://www.uvwcompany.com",
+            "imageurl": "images/logo10.jpg",
+            "membership": "silver",
+            "slogan": "Leading with passion and purpose"
+        }
+    ]
+}
