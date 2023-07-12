@@ -1,0 +1,94 @@
+{
+    "businesses": [
+        {
+            "name": "Car. Repair",
+            "address": "123 Lemon Street",
+            "phone": "123-321-4567",
+            "website": "https://www.carrepair.com",
+            "imageurl": "images/logo3.jpg",
+            "membership": "diamond",
+            "slogan": "Let us help your car!"
+        },
+        {
+            "name": "Nina Pizzeria",
+            "address": "456 Food Street",
+            "phone": "456-999-0003",
+            "website": "https://www.ninapizzeria.com",
+            "imageurl": "images/logo2.jpg",
+            "membership": "executive",
+            "slogan": "Hot and fast pizza!"
+        },
+        {
+            "name": "Info Shoes",
+            "address": "789 Mouse Street",
+            "phone": "111-777-888",
+            "website": "https://www.infoshoes.com",
+            "imageurl": "images/logo1.jpg",
+            "membership": "elite",
+            "slogan": "Find your shoes"
+        },
+        {
+            "name": "R.ORG",
+            "address": "444 Orange Street",
+            "phone": "123-555-7777",
+            "website": "https://www.rorg.com",
+            "imageurl": "images/logo4.jpg",
+            "membership": "non-profit",
+            "slogan": "Salve the world"
+        },
+        {
+            "name": "Fly Corporation",
+            "address": "987 ABBA Road",
+            "phone": "355-444-6780",
+            "website": "https://www.fly.com",
+            "imageurl": "images/logo5.jpg",
+            "membership": "diamond",
+            "slogan": "Fly Safe"
+        },
+        {
+            "name": "Tota Technology",
+            "address": "222 Apple Street",
+            "phone": "333-222-2345",
+            "website": "https://www.totatec.com",
+            "imageurl": "images/logo6.jpg",
+            "membership": "executive",
+            "slogan": "Innovation Forever!"
+        },
+        {
+            "name": "Quill Pen Industries",
+            "address": "42 Ocean Streat",
+            "phone": "360-555-6789",
+            "website": "https://www.quill.com",
+            "imageurl": "images/logo7.jpg",
+            "membership": "elite",
+            "slogan": "Writing your history!"
+        },
+        {
+            "name": "Freedom Hotel",
+            "address": "712 John Street",
+            "phone": "360-555-0123",
+            "website": "https://www.freedomh.com",
+            "imageurl": "images/logo8.jpg",
+            "membership": "non-profit",
+            "slogan": "Free support for hotels."
+        },
+        {
+            "name": "VA Corporation",
+            "address": "123 Cedar Lane",
+            "phone": "360-555-4567",
+            "website": "https://www.vacorp.com",
+            "imageurl": "images/logo9.jpg",
+            "membership": "diamond",
+            "slogan": "Only the future!"
+        },
+        {
+            "name": "Lotus Company",
+            "address": "777 Dreams Street",
+            "phone": "360-555-8901",
+            "website": "https://www.lotus.com",
+            "imageurl": "images/logo10.jpg",
+            "membership": "executive",
+            "slogan": "Rarities"
+        }
+    ]
+}
