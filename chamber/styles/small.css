@@ -631,12 +631,12 @@ form div {
 
 form label.top input {
   display: block;
-  border: solid 1px #999;
+  border: solid 1px #01eaff;
   border-radius: 4px;
   padding: 0.75rem;
-  color: #555;
+  color: #5c452e;
   width: 100%;
-  background-color: rgba(237, 196, 35, 0.1);
+  background-color: rgb(255, 254, 254);
 }
 
 form label.sbs {
@@ -952,6 +952,7 @@ div.board figure picture img{
 }
 
 /* contact page*/
+
 p.largecontact{
   color: #03f2ff;
   font-size: 18px;
