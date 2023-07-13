@@ -642,7 +642,7 @@ form label.top input {
 form label.sbs {
   display: block;
   padding: 0.75rem 0;
-  color: #000;
+  color: #000000;
 }
 
 form input.submitBtn {
@@ -668,7 +668,7 @@ form label.top input:required:valid {
 form textarea {
   display: block;
   font-size: 18px;
-  border: solid 1px #999;
+  border: solid 1px #999999;
   border-radius: 4px;
   width: 100%;
   padding: 15px;
@@ -681,6 +681,7 @@ legend {
   padding: 5px;
   font-size: 18px;
   font-weight: bold;
+  color: #03f2ff;
 }
 
 .membership {
@@ -970,6 +971,10 @@ h2.ask {
 
 p.ask-p {
   color: #03f2ff;
+}
+
+.figcolor {
+  color:#03f2ff;
 }
 
 /*thank you page*/
