@@ -21,7 +21,7 @@ fetch(APIurl)
 
     let counter = 0;
     Object.keys(groupedData).forEach(date => {
-      if (counter >= 4) {
+      if (counter >= 3) {
         return;
       }
 
@@ -39,9 +39,6 @@ fetch(APIurl)
       temperature.textContent = Math.round(forecast.main.temp) + '°F';
       forecastCard.appendChild(temperature);
 
-      //const description = document.createElement('p');
-      //description.textContent = forecast.weather[0].description;
-      //forecastCard.appendChild(description);
 
       const weatherIconSpan = document.createElement('span');
       let weatherIcon = forecast.weather[0].icon;

@@ -150,7 +150,7 @@ footer a {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  height: 40px;
+  height: 50px;
   background-color: var(--accent1-color);
   padding: 8px;
   display: none;
@@ -158,8 +158,8 @@ footer a {
 }
 
 h1 {
-  font-size: 1.1rem;
-  margin: 15;
+  font-size: 30px;
+  margin: 0;
   text-align: left;
 }
 
@@ -309,12 +309,13 @@ header div nav {
 }
 
 .container {
-  background-color: rgba(96, 108, 56, 0.2);
-  border: 2px solid #bbbbbb;
+  background-color: rgba(3, 250, 246, 0.5);
+  border: 2px solid #420459;
   padding: 10px;
   text-align: center;
   position: relative;
   margin-bottom: 20px;
+  transform-style: preserve-3d
 }
 
 /* News Section */
@@ -361,7 +362,7 @@ header div nav {
   grid-column: 2/3;
   font-size: 22px;
   font-weight: bold;
-
+  color: #bc6c25;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -404,8 +405,8 @@ hr.weather-description {
 }
 
 aside {
-  background-color: #281e1b;
-  border: 2px solid #bbbbbb;
+  background-color: rgb(40, 30, 27, 0.8);
+  border: 2px solid #ffd000;
   padding: 10px;
   text-align: center;
   font-size: 14px;
@@ -462,14 +463,14 @@ aside {
   display: grid;
   align-items: start;
   background-color: rgba(255, 255, 255);
-  border: 2px solid #0C0908;
-  box-shadow: 4px 4px 4px #ffffff;
+  border: 2px var(--accent1-color);
+  
 }
 
 .discover-left {
   display: none;
-  background-color: #0C0908;
-  border: 2px solid #bbbbbb;
+  background-color: rgb(12, 9, 8);
+  border: 2px var(--accent1-color);
   padding: 10px;
 
 
@@ -500,6 +501,12 @@ figcaption {
   margin-bottom: 10px;
 }
 
+picture.test {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 
 /* end week 6 images */
@@ -537,7 +544,7 @@ figcaption {
   padding: 12px;
   min-width: 100px;
   width: 50%;
-  background-color: var(--accent2-color);
+  background-color:  #03f2ff;
   border: none;
   border-radius: 3px;
   font-weight: bold;
@@ -546,7 +553,7 @@ figcaption {
 
 .call-to-action:hover {
   background-color: var(--accent1-color);
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -554,7 +561,7 @@ figcaption {
   width: 100%;
   padding: 12px;
   margin-bottom: 10px;
-  background-color: var(--accent2-color);
+  background-color: #03f2ff;
   border-radius: 5px;
   border: 1px solid #000;
   font-weight: bold;
@@ -578,9 +585,22 @@ figcaption {
   align-items: start;
 }
 
+.join-calgary-cc {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+}
+
 .title {
   grid-column: 1/2;
   width: 100%;
+}
+
+.joincity {
+  margin: 10px;
+  width: 100%;
+  border: #555 2px solid;
 }
 
 .joinbridge {
@@ -601,9 +621,10 @@ figcaption {
 
 form label.top,
 form div {
+  color: #03f2ff;
   display: block;
   padding-top: 1rem;
-  font-size: 0.8rem;
+  /*font-size: 0.8rem;*/
   font-size: 16px;
   font-weight: bold;
 }
@@ -641,7 +662,7 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-  border-left: green solid 6px;
+  border-left: blue solid 6px;
 }
 
 form textarea {
@@ -675,6 +696,8 @@ legend {
   grid-template-columns: 1fr;
 }
 
+ /* Last Visit Assignment */
+ 
 .last-visit {
   grid-column: 1/4;
   max-width: 1200px;
@@ -706,7 +729,8 @@ legend {
 }
 
 .content-container {
-  padding: 0 2%;
+  padding: 15px 2%;
+  background-color: #ff8000;
 }
 
 .directory-buttons {
@@ -846,12 +870,17 @@ legend {
 
 .contact-card dl dt
 {
+background-color:#000000 ;
+color: #03f2ff;
+border:#03f2ff;
 padding: 7px;
 font-weight: bold;
 }
 
 .contact-card dl dd
 {
+color: #03f2ff;
+border:#03f2ff;
 margin-bottom: 16px;
 margin-left: 7px;
 }
@@ -921,3 +950,17 @@ div.board figure picture img{
   line-height: 25px;
 }
 
+/* contact page*/
+p.largecontact{
+  color: #03f2ff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2.ask{
+  color: #03f2ff;
+}
+
+p.ask-p{
+  color: #03f2ff;
+}
