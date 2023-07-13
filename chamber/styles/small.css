@@ -945,6 +945,7 @@ div.board figure picture img{
   height: 400px;
   width: 300px;
   transition: .5s;
+  border-color: #03f2ff;
 }
 
 .discovertext {
@@ -953,17 +954,21 @@ div.board figure picture img{
 
 /* contact page*/
 
-p.largecontact{
+p.largecontact {
   color: #03f2ff;
   font-size: 18px;
   font-weight: bold;
 }
 
-h2.ask{
+h1.title-contact {
+  color:#03f2ff
+}
+
+h2.ask {
   color: #03f2ff;
 }
 
-p.ask-p{
+p.ask-p {
   color: #03f2ff;
 }
 
