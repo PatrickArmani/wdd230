@@ -692,6 +692,7 @@ legend {
 }
 
 .thankyou {
+  background-color: #000;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -963,4 +964,10 @@ h2.ask{
 
 p.ask-p{
   color: #03f2ff;
+}
+
+/*thank you page*/
+
+.thanks-text{
+  color: #4e0295;
 }
