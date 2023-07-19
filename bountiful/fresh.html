@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bountiful Foods">
+    <meta property="og:url" content="https://patrickarmani.github.io/wdd230/bountiful">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Armani">
+    <meta name="description" content="">
+    <title>Bountiful Foods | Fresh Page</title>
+
+    <!--font form google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,800;1,200;1,400&display=swap" rel="stylesheet">
+    <!--normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico">
+    <!--Responsivitoy-->
+    <link type="text/css" rel="stylesheet" href="styles_fresh/small.css">
+    <link type="text/css" rel="stylesheet" href="styles_fresh/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles_fresh/large.css">
+    <link type="text/css" rel="stylesheet" href="styles_fresh/styles.css">
+</head>
+<body>
+    
+    <header>
+        <!-- Starting menu-->
+        <div class="menu">
+            <!--<img class="logo-header" src="logo-bountiful-small.webp" alt="Logo">-->
+            <img class="logo-header" src="images/logo-bountiful-small.webp" alt="Logo">
+            <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="fresh.html">FRESH</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+               
+            </ul>
+            </nav>
+            <div>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            </div>    
+                
+        </div>
+    </header>
+    <main class="fresh-main">
+                
+        <div class="lft-container">
+            <img class="img-yellow" src="images/juice.jpg" alt="Custom Drinks" loading="lazy">
+            <div id="output"></div>
+        </div>
+        <div class="form-container">
+            <form id="orderForm" onsubmit="handleSubmit(event); countDrink();">
+                <h2 class="title-cta">Make Your Juice</h2>
+                <p class="cta">In this field you can customize your drink based on available organic products.<br>We will supply your nutritional base according to your choice. Try it!.</p>
+
+                <label class="top">First name* <input type="text" name="firstName" required></label>
+                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email"
+                        required></label>
+                <label class="top">Cell Phone Number*<input type="tel" name="phone" placeholder="1235551234"
+                        required></label>
+                <label class="top" for="fruits1">Select a Fruit: <select id="fruits1"></select></label>
+                <label class="top" for="fruits2">Select a Fruit: <select id="fruits2"></select></label>
+                <label class="top" for="fruits3">Select a Fruit: <select id="fruits3"></select></label>
+
+                <br>
+
+                <label class="top">Special Instructions: <br><textarea name="description" rows="4"></textarea></label>
+                <input type="hidden" id="formDateTime" name="formDateTime" value="">
+
+                <input type="submit" class="submitBtn" value="Make Your Drink!">
+            </form>
+
+        </div>
+
+    </main>
+    <!--Start footer-->
+    <footer>
+        <div class="info">
+            <div class="companyinfo">
+                <p class="medium">Bountiful Foods<br>
+                <p>18550 Seven Bridges Road,Bountiful Foods,<br>CA 92091, Estados Unidos</p>
+            </div>
+
+            <div class="social">
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png"
+                        alt="Instagram" class="sociallogo" width="30" height="30"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-30px.svg" alt="Facebook"
+                        class="sociallogo" width="30" height="30"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="images/linkedin-30px.svg" alt="LinkedIn"
+                        class="sociallogo" width="30" height="30"></a>
+            </div>
+            
+        </div>
+        <div class="otherinfo">
+            &copy;<span id="copyright"></span> Bountiful Foods&nbsp;&nbsp;|&nbsp;&nbsp;Patrick Armani&nbsp;&nbsp;|&nbsp;&nbsp;Last modified: <span id="dateModified"></span>
+            
+        </div>
+    </footer>
+
+    <script src="scripts_fresh/script.js"></script>
+    <!--<script src="scripts_fresh/weather.js"></script>-->
+    <script src="scripts_fresh/getfruits.js"></script>
+    <script src="scripts_fresh/createdrink.js"></script>
+</body>
+
+</html>
